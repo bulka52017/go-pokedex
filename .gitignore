@@ -1,0 +1,53 @@
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+# Project-specific
+bin/
+obj/
+# Go specific
+*.o
+*.a
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+_testmain.go
+*.carchive
+*.iarchive
+# Architecture specific extensions/prefixes
+[56789].out
+*.i
+*.ii
+*.s
+*.S
+# Editor files
+*.swp
+*.swo
+*.swn
+*.vim
+*.un~
+Session.vim
+.netrwhist
+*~
+# Go coverage tool
+*.cover
+# Binary
+/main
+# Dependency directories (remove the comment below to include it)
+#vendor/
+# Error logs
+*.log
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+# JetBrains IDEs
+.idea/
+# VSCode
+.vscode/
+
+go-pokedex
