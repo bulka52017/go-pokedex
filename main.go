@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/bulka52017/go-pokedex/cli"
+)
 
 func main() {
-	fmt.Println("Hello Pokedex")
+	cli.StartCli()
 }
